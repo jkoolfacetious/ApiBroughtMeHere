@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Microsoft.AspNet.Identity;
 
 namespace ApiBMH_DataManager.Controllers
 {
@@ -11,9 +12,11 @@ namespace ApiBMH_DataManager.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
-        public IEnumerable<string> Get()
+        public IHttpActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            //getting user id
+            string userId = RequestContext.Principal.Identity.GetUserId();
+            return Ok( new string[] { "value1", "value2", userId });
         }
 
         // GET api/values/5
