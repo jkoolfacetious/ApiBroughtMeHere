@@ -30,7 +30,7 @@ namespace ApiBMH_DataManager
             {
                 RequiredLength = 6,
                 RequireNonLetterOrDigit = false,
-                RequireDigit = true,
+                RequireDigit = false,
                 RequireLowercase = true,
                 RequireUppercase = true,
             };
