@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiBMH_DataManager", "ApiBMH_DataManager\ApiBMH_DataManager.csproj", "{DFDC7749-B66F-4639-A841-5E9C26440A39}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IssaDatabase1", "IssaDatabase1\IssaDatabase1.sqlproj", "{CCF25CD1-3DB7-47DF-975D-D981DA3D6A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiBMHDesktopUserInterface", "ApiBMHDesktopUserInterface\ApiBMHDesktopUserInterface.csproj", "{354B94E3-4922-4263-931E-34DF755C0B93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{DFDC7749-B66F-4639-A841-5E9C26440A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFDC7749-B66F-4639-A841-5E9C26440A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFDC7749-B66F-4639-A841-5E9C26440A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF25CD1-3DB7-47DF-975D-D981DA3D6A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF25CD1-3DB7-47DF-975D-D981DA3D6A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF25CD1-3DB7-47DF-975D-D981DA3D6A34}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CCF25CD1-3DB7-47DF-975D-D981DA3D6A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF25CD1-3DB7-47DF-975D-D981DA3D6A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF25CD1-3DB7-47DF-975D-D981DA3D6A34}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{354B94E3-4922-4263-931E-34DF755C0B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354B94E3-4922-4263-931E-34DF755C0B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354B94E3-4922-4263-931E-34DF755C0B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354B94E3-4922-4263-931E-34DF755C0B93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
