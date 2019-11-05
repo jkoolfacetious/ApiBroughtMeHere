@@ -1,4 +1,5 @@
-﻿using ApiBMHDesktopUserInterface.ViewModels;
+﻿using ApiBMHDesktopUserInterface.Helpers;
+using ApiBMHDesktopUserInterface.ViewModels;
 using Caliburn.Micro;
 using System;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace ApiBMHDesktopUserInterface
 {
@@ -18,6 +20,11 @@ namespace ApiBMHDesktopUserInterface
         public bootstrapBootstraps()
         {
             Initialize();
+
+            ConventionManager.AddElementConvention<PasswordBox>(
+            PasswordBoxHelper.BoundPasswordProperty,
+            "Password",
+            "PasswordChanged");
         }
 
         protected override void Configure()
